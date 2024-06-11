@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beata Anioł - Ekspert od Rozwoju Zawodowego</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        #showcase {
+            min-height: 400px;
+            background: url('showcase.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background: #fff;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .gallery div {
+            flex: 1;
+            margin: 5px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        form button {
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Beata Anioł</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">O mnie</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#testimonials">Polecenia</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Ekspert od Rozwoju Zawodowego</h1>
+            <p>Pomagam liderom i zespołom osiągać sukcesy poprzez innowacyjne rozwiązania.</p>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <h2>O mnie</h2>
+        <p>Jako psycholog, z pasją oddaję się roli liderki zespołów HR, czerpiąc z ponad 20-letniego doświadczenia. Moje serce bije najszybciej, kiedy współpracuję z innymi liderami, pomagając im rozwijać ich umiejętności przywództwa. Jestem pasjonatką budowania zaangażowanych zespołów i kreowania angażującego środowisk pracy bo to bezpośrednio przyczynia się do sukcesów biznesowych organizacji. W mojej pracy stawiam na innowacyjność, wprowadzając rozwiązania, które ułatwiają życie zarówno liderom, jak i ich zespołom. Moje zainteresowania neuronauką wzbogacają warsztaty, które prowadzę dla kadry zarządzającej i całych zespołów, czyniąc je bardziej atrakcyjnymi i efektywnymi. Z dumą mogę powiedzieć, że jestem certyfikowanym trenerem odporności psychicznej.</p>
+    </section>
+
+    <section id="gallery" class="container">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <div><img src="photo1.jpg" alt="Zdjęcie 1"></div>
+            <div><img src="photo2.jpg" alt="Zdjęcie 2"></div>
+            <div><img src="photo3.jpg" alt="Zdjęcie 3"></div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="container">
+        <h2>Polecenia</h2>
+        <p>"Beata to niesamowity lider i trener. Jej warsztaty zmieniły sposób, w jaki pracuję z moim zespołem." - Jan Kowalski</p>
+        <p>"Dzięki Beacie nasza firma osiągnęła nowe poziomy efektywności i zaangażowania." - Anna Nowak</p>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <p>Tutaj znajdziesz moje najnowsze artykuły i przemyślenia na temat rozwoju zawodowego, przywództwa i innowacji.</p>
+    </section>
+
+    <section id="contact" class="container">
+        <h2>Kontakt</h2>
+        <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Imię i nazwisko">
+            <input type="email" name="email" placeholder="Email">
+            <textarea name="message" placeholder="Wiadomość"></textarea>
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Beata Anioł. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
